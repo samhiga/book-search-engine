@@ -28,7 +28,7 @@ const SignupForm = () => {
       event.preventDefault();
       event.stopPropagation();
     }
-
+    // bug somewhere in here
     try {
       const response = await addUser({ 
         variables: userFormData
